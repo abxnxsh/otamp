@@ -1,1 +1,4 @@
-print("siuuuuuuuuuuuuuuu")
+# siu.py
+
+def siu():
+    print("siuuuuuuuuuu")
