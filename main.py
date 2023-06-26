@@ -17,7 +17,7 @@ def connect_to_wifi(ssid, password):
 
 # Function to update the siu.py file from GitHub
 def update_siu_file():
-    url = "https://raw.githubusercontent.com/your-username/your-repo/main/siu.py"
+    url = "https://raw.githubusercontent.com/abxnxsh/otamp/main/siu.py"
     response = urequests.get(url)
     code = response.text
     with open("siu.py", "w") as f:
