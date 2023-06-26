@@ -1,1 +1,3 @@
-print("Hello world")
+# boot.py
+import gc
+gc.collect()
