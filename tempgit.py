@@ -16,6 +16,7 @@ while True:
     if(tempr>25):
         led.value(1)
         sleep(1)
+        print("Led on")
     else:
         led.value(0)
         sleep(1)
